@@ -1,0 +1,162 @@
+body{
+    text-transform: none;
+    font-family: Georgia, serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    overflow-wrap: normal;
+    height: 100%;
+    min-height: 100%;
+
+
+
+}
+
+
+/* Index // Header */
+
+.BarraP{
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 0;
+
+
+}
+.portada {
+display: flex;
+align-items: center;
+margin: 0 auto;
+width: 50%;
+padding: 10px;
+
+
+
+}
+
+
+.BarraP{
+    margin-left: 1px;
+}
+
+.menu {
+    display: flex;
+}
+ul {
+    display: inline-flex;
+    list-style: none ;
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+}
+
+.li {
+    margin-top: auto;
+    margin-left: auto;
+}
+ .navegador {
+    display: list-item;
+    margin-left: 1rem;
+    color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   
+    
+}
+
+/*                            NAVEGADOR               */
+
+
+
+
+
+
+
+/* section  */
+
+h1 {
+    text-align: center;
+}
+
+
+.Principal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    padding: 20px;
+
+}
+.tituloImg {
+    text-align: center;
+    background-color: rgb(236, 231, 231);
+}
+
+/* SECTION FITNESS */
+
+.tituloFit{
+    margin-left: 32px;
+    margin-right: 32px;
+    
+}
+
+.fitPort{
+    height: 600px;
+
+}
+
+.izquierda {
+    
+    height: 500px;
+    float: left;
+}
+
+
+
+/*                      Contacto                 */
+
+.FormatoForm {
+    padding: 10rem;
+}
+
+
+/*                      Accesorios                 */
+
+.acceTitulo {
+
+    text-decoration:underline;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.pie{
+    background-color: black;
+    padding: 20px;
+    position:relative;
+
+}
+
+.parrF {
+    text-align: center;
+    color: white;
+}
